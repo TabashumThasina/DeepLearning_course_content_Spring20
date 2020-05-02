@@ -1,0 +1,1 @@
+Closer to linear returns in gradient accuracy estimates with more samples[ optimization , slide 18]
