@@ -1,0 +1,22 @@
+1.	How many samples and how many total features for each sample are there in the entire data set from the tutorial? (note, this is the first question I often try to figure out when getting into details on ML consultations)
+2.	How many total features would each sample have if the images were color instead of black and white?
+3.	How is the input data normalized?
+4.	The activation function (output nonlinearity) for the hidden layer units is ‘relu’: Describe the shape of that nonlinearity in words.
+5.	The hidden layer is represented with 128 fully-connected neurons. Given the size of the images, how many parameters must be learned for this layer? 
+6.	Similar question, the output layer is 10 fully-connected neurons, so how many parameters must be learned in this layer.
+7.	If each parameter is 32 bits, how many megabytes do you need to store this model?
+8.	Having 128 neurons in the hidden layer was likely found to perform best for this task. If we used dropout regularization for this layer, would it be better to consider increasing the number of neurons or decreasing them. Explain. 
+9.	Give your opinion if a convolutional neural network would be better or worse for this problem, and succinctly justify it.
+10.	Which of the lines (#1-5) below is closest to a description of this neural network.
+ 
+11.	The cost function here is a type of cross entropy. What other loss functions are possible that you’ve seen in the class? 
+12.	The optimizer used here is Adam. Briefly describe what makes Adam different from standard gradient descent. No equations - just 1-2 sentences describing.
+13.	The metric being optimized here is accuracy. Name at least 2 other alternate metrics and succinctly describe them.
+14.	What is the batch size that Keras uses in the tutorial? (you’ll have to look this up)
+15.	If we increased the number of hidden layer units, what would happen to the training set accuracy and the test set accuracy compared to the original version?
+16.	Describe the one-hot encoding scheme in the last layer.
+17.	Describe approximately what the softmax function does to the outputs of the 10 neurons in the output layer. In particular, what do the results of the softmax function on those outputs represent?
+18.	What is the nonlinearity used in the output neurons prior to the application of softmax?
+19.	Why might it be better to not have ‘relu’ as the activation function for the output layer?
+20.	Is this tutorial using cross-validation?
+
